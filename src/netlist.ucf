@@ -1,0 +1,29 @@
+#16 Mhz RST button
+NET "xclk" LOC="P56";
+NET "rst" LOC="P41";
+
+#VGA modul output
+NET "xrgb<5>" LOC="p139";
+NET "xrgb<4>" LOC="p4";
+NET "xrgb<3>" LOC="p135";
+NET "xrgb<2>" LOC="p5";
+NET "xrgb<1>" LOC="p134";
+NET "xrgb<0>" LOC="p7";
+NET "xvs" LOC="p3";
+NET "xhs" LOC="p140";
+
+#Pressable buttons
+NET "BTN<3>" LOC="P12";
+NET "BTN<2>" LOC="P24";
+NET "BTN<1>" LOC="P36";
+NET "BTN<0>" LOC="P38";
+
+# 8 switches, from left to right
+NET "SW<7>" LOC = "P47"; 
+NET "SW<6>" LOC = "P48"; 
+NET "SW<5>" LOC = "P69"; 
+NET "SW<4>" LOC = "P78"; 
+NET "SW<3>" LOC = "P84"; 
+NET "SW<2>" LOC = "P89"; 
+NET "SW<1>" LOC = "P95"; 
+NET "SW<0>" LOC = "P101"; 
